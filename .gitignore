@@ -1,0 +1,13 @@
+# Binaries
+01-kmeans-openmp/kmeans_omp
+02-sparse-matmul-openmp/spmm_omp
+03-kmeans-mpi/kmeans_mpi
+04-sparse-matmul-mpi/spmm_mpi
+*.o
+*.out
+
+# SLURM / editor noise
+slurm-*.out
+.vscode/
+.idea/
+.DS_Store
